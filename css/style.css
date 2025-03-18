@@ -19,6 +19,31 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* common */
+.bg-editorial {
+    background-color: #33b6f7;
+}
+
+.bg-q1goals {
+    background-color: #a327e2;
+}
+
+.bg-recruiting {
+    background-color: #4fb6ab;
+}
+
+.bg-mobile {
+    background-color: orange;   
+}
+
+.bg-website {
+    background-color: #e05fa3;  
+}
+
+.bg-sales {
+    background-color: #98bc5c;  
+}
+
 /* header */
 .header {
     padding: 20px 35px;
@@ -41,14 +66,15 @@ body {
 .main {
     background-color: #ededed;
     padding-top: 25px;
+    padding-bottom: 20px;
 }
-
 /* CARD */
 .card {
     background-color: rgb(255, 255, 255); 
-    border-radius: 10px;  
+    border-radius: 10px;     
 }
 
+/* header CARD */
 .header-card {
     padding: 20px 100px;
     border-bottom: 2px solid #ededed;
@@ -74,6 +100,60 @@ body {
 .btn-section {
     color: #d3c6c6;
     border: 1px solid #d3c6c6;
+}
+
+
+/* main CARD */
+
+.main-card {
+    padding: 50px 100px;
+}
+
+/* list */
+.main-card ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.symbol-check {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    border: 1px solid green;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: green;
+    margin-right: 12px;
+}
+
+.symbol-cross {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    border: 1px solid rgb(219, 13, 13);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: rgb(219, 13, 13);
+    margin-right: 12px;
+}
+
+.label {
+    display: inline-block;
+    color: white;
+    height: 25px;
+    width: 75px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: small;
+    margin-left: 5px;
+}
+
+.list-main-card li {
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 
