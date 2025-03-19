@@ -9,6 +9,12 @@ img {
     max-width: 100%;
 }
 
+/* custom properties */
+:root {
+    --size-symbol: 25px; 
+    --horizontal-space: 100px
+}
+
 /* utils */
 .container {
     width: 80%;
@@ -44,6 +50,16 @@ body {
     background-color: #98bc5c;  
 }
 
+.color-symbolcheck {
+    color: green;
+    border: 1px solid green;
+}
+
+.color-symbolcross {
+    color: rgb(219, 13, 13);
+    border: 1px solid rgb(219, 13, 13);
+}
+
 /* header */
 .header {
     padding: 20px 35px;
@@ -76,7 +92,7 @@ body {
 
 /* header CARD */
 .header-card {
-    padding: 12px 100px;
+    padding: 12px var(--horizontal-space);
     border-bottom: 2px solid #ededed;
 }
 
@@ -106,7 +122,7 @@ body {
 /* main CARD */
 
 .main-card {
-    padding: 50px 100px;
+    padding: 50px var(--horizontal-space);
 }
 
 /* list */
@@ -115,27 +131,23 @@ body {
     margin-bottom: 30px;
 }
 
-.symbol-check {
+.symbolcheck {
     display: inline-block;
-    height: 22px;
-    width: 22px;
-    border: 1px solid green;
+    height: var(--size-symbol);
+    width: var(--size-symbol);
     border-radius: 50%;
     text-align: center;
-    line-height: 20px;
-    color: green;
+    line-height: var(--size-symbol);
     margin-right: 12px;
 }
 
-.symbol-cross {
+.symbolcross {
     display: inline-block;
-    height: 22px;
-    width: 22px;
-    border: 1px solid rgb(219, 13, 13);
+    height: var(--size-symbol);
+    width: var(--size-symbol);
     border-radius: 50%;
     text-align: center;
-    line-height: 20px;
-    color: rgb(219, 13, 13);
+    line-height: var(--size-symbol);
     margin-right: 12px;
 }
 
